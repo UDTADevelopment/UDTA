@@ -1,0 +1,11 @@
+public class startMenu
+{
+public static void main(String[] args)
+  {
+
+  System.out.println("Welcome to The Under Development Text Adventure")
+
+  }
+
+
+}
