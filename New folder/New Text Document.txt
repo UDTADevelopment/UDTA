@@ -1,0 +1,87 @@
+package um.CodeTrekkers.reference;
+
+import java.util.Scanner;
+
+/**
+ * Created by Jack on 9/1/2014.
+ */
+public class rio {
+
+    public static String ins(){
+        Scanner in = new Scanner(System.in);
+        String input = in.nextLine();
+        in.close();
+        return input;
+    }
+    public static boolean inb(){
+        Scanner in = new Scanner(System.in);
+        boolean input = in.nextBoolean();
+        in.close();
+        return input;
+    }
+    public static void out(String out){
+        System.out.println(out);
+    }
+}
+
+
+
+package um.CodeTrekkers.game;
+
+/**
+ * Created by Jack on 9/1/2014.
+ */
+public class game {
+    public static void game() {
+        //Story Gen
+        if
+    }
+}
+
+
+
+package um.CodeTrekkers.menu;
+
+import um.CodeTrekkers.game.game;
+import um.CodeTrekkers.reference.rio;
+
+/**
+ * Created by Jack on 9/1/2014.
+ */
+public class menu {
+    public static void menuov(){
+        intro();
+        menu();
+    }
+    public static void intro(){
+        rio.out("Hello World, and you.");
+        rio.out("welcome to UDTA?");
+        rio.out("we wish you would help us in dev");
+        rio.out("This program is licensed");
+    }
+    public static void menu(){
+        rio.out("Game?");
+        boolean GameYN = rio.inb();
+        if (GameYN = true){
+            game.game();
+        }else{}
+    }
+
+
+}
+
+
+
+
+package um.CodeTrekkers.menu;
+
+/**
+ * Created by Jack on 9/1/2014.
+ */
+public class main {
+
+    public main(String[] args) {
+        menu.menuov();
+
+    }
+}
