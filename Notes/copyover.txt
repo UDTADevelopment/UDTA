@@ -1,9 +1,10 @@
+/* if ever mistaken
 package um.CodeTrekkers.reference;
 
 import java.util.Scanner;
 
 /**
- * Created by Jack on 9/1/2014.
+ * Created by nija123098 on 9/1/2014.
  */
 public class rio {
 
@@ -29,7 +30,7 @@ public class rio {
 package um.CodeTrekkers.game;
 
 /**
- * Created by Jack on 9/1/2014.
+ * Created by nija123098 on 9/1/2014.
  */
 public class game {
     public static void game() {
@@ -46,7 +47,7 @@ import um.CodeTrekkers.game.game;
 import um.CodeTrekkers.reference.rio;
 
 /**
- * Created by Jack on 9/1/2014.
+ * Created by nija123098 on 9/1/2014.
  */
 public class menu {
     public static void menuov(){
@@ -76,7 +77,7 @@ public class menu {
 package um.CodeTrekkers.menu;
 
 /**
- * Created by Jack on 9/1/2014.
+ * Created by nija123098 on 9/1/2014.
  */
 public class main {
 
@@ -85,3 +86,4 @@ public class main {
 
     }
 }
+*/
