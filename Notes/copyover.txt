@@ -1,5 +1,5 @@
 /* if ever mistaken
-package um.CodeTrekkers.reference;
+package um.UDTADevelopment.game.reference;
 
 import java.util.Scanner;
 
@@ -27,7 +27,7 @@ public class rio {
 
 
 
-package um.CodeTrekkers.game;
+package um.UDTADevelopment.game;
 
 /**
  * Created by nija123098 on 9/1/2014.
@@ -41,10 +41,10 @@ public class game {
 
 
 
-package um.CodeTrekkers.menu;
+package um.UDTADevelopment.menu;
 
-import um.CodeTrekkers.game.game;
-import um.CodeTrekkers.reference.rio;
+import um.UDTADevelopment.game.game;
+import um.UDTADevelopment.game.reference.rio;
 
 /**
  * Created by nija123098 on 9/1/2014.
@@ -74,7 +74,7 @@ public class menu {
 
 
 
-package um.CodeTrekkers.menu;
+package um.UDTADevelopment.menu;
 
 /**
  * Created by nija123098 on 9/1/2014.
