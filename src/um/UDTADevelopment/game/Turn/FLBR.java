@@ -3,7 +3,7 @@ package um.UDTADevelopment.game.Turn;
 /**
  * Created by nija123098 on 9/20/2014.
  */
-public class flrs {
+public class FLBR {
     public static void foreword(){
         Turn.der = 0;//not needed
         switch (Turn.der){

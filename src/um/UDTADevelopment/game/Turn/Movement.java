@@ -12,16 +12,16 @@ public class Movement {
         //
         switch (Mt){
             case (0):{//foreword
-                flrs.foreword();
+                FLBR.foreword();
             }break;
             case (1):{//left
-                flrs.left();
+                FLBR.left();
             }break;
             case (2):{//back
-                flrs.back();
+                FLBR.back();
             }break;
             case (3):{//right
-                flrs.right();
+                FLBR.right();
             }break;
         }
     }

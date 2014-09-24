@@ -14,7 +14,8 @@ public class game {
         //
         //Story Gen
         if (true){
-            Turn.Turnloop(/*rio.ini()*/10);
+            rio.out("how meany turns?");
+            Turn.Turnloop(rio.ini());
         }else{}
     }
 }

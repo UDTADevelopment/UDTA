@@ -21,8 +21,8 @@ public class Player {
     //
     public int dodamage(){
         based = 20;
-        int damagetodo =  based + Rand.Rand(10);//extraD
-        if (Rand.Rand(99) <= 15){//critchance
+        int damagetodo =  based + Rand.Rand(SettingsKindOf.extrad);//extraD
+        if (Rand.Rand(99) <= SettingsKindOf.critchance){//critchance
             return 2*damagetodo;
         }
         return damagetodo;
