@@ -13,7 +13,7 @@ public class Turn {
     public static int der = 0;
     public static void Turnloop(int looptimes){
         int looplifecheck = 0;
-        while (looplifecheck <= 10000){
+        while (looplifecheck <= 10000){//todo
             while (looptimes >= 0) {
                 Turn();
                 looplifecheck++;
@@ -30,6 +30,7 @@ public class Turn {
         //
         int whaterrain = Terrain.TerrainRead(x,y);
         TerrainActiv.TerrainActiv(whaterrain);
+        TerrainActiv.TerrainActivate();
         //
     }
     public static void MoveA(){

@@ -16,6 +16,6 @@ public class game {
         if (true){
             rio.out("how meany turns?");
             Turn.Turnloop(rio.ini());
-        }else{}
+        }//else{}
     }
 }
