@@ -9,14 +9,7 @@ import um.UDTADevelopment.reference.rio;
  * Created by nija123098 on 9/20/2014.
  */
 public class TerrainActiv {
-    protected static int tselect;
-
-
-    public static void TerrainActiv(int terr){
-        //TerrainActiv.terr = terr;
-        int tselect = terr;
-    }
-    public static void TerrainActivate(){
+    public static void TerrainActivate(int tselect){
 
         switch (tselect){
             case (0):{

@@ -29,8 +29,10 @@ public class Turn {
         Movement.Mtern();
         //
         int whaterrain = Terrain.TerrainRead(x,y);
-        TerrainActiv.TerrainActiv(whaterrain);
-        TerrainActiv.TerrainActivate();
+        ///
+        rio.out(Integer.toString(whaterrain));
+        ///
+        TerrainActiv.TerrainActivate(whaterrain);
         //
     }
     public static void MoveA(){
