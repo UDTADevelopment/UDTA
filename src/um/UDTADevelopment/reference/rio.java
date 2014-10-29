@@ -28,4 +28,7 @@ public class rio {
     public static void out(String out){
         System.out.println(out);
     }
+    public static void outi(int out){
+        System.out.println(out);
+    }
 }

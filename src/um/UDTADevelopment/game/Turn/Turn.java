@@ -13,27 +13,18 @@ public class Turn {
     public static int der = 0;
     public static void Turnloop(int looptimes){
         int looplifecheck = 0;
-        while (looplifecheck <= 10000){//todo
             while (looptimes >= 0) {
                 Turn();
-                looplifecheck++;
                 looptimes--;
             }
-        }
-        rio.out("Honestly");
-        rio.out("you have no life");
     }
     //
     public static int check = 0;
     public static void Turn(){
         Movement.Mtern();
-        //
+
         int whaterrain = Terrain.TerrainRead(x,y);
-        ///
-        rio.out(Integer.toString(whaterrain));
-        ///
         TerrainActiv.TerrainActivate(whaterrain);
-        //
     }
     public static void MoveA(){
         if (x>4){

@@ -2,6 +2,7 @@ package um.UDTADevelopment.game.Terrain;
 
 import um.UDTADevelopment.reference.Rand;
 import um.UDTADevelopment.reference.SettingsKindOf;
+import um.UDTADevelopment.reference.rio;
 
 /**
  * Created by nija123098 on 9/19/2014.
@@ -16,6 +17,7 @@ public class Terrain {
         for(int c=0;c<mapsize;c++){
             for(int o=0;o<mapsize;o++){
                 terrain[c][o] = -1;//set up for possible map function
+
             }
         }
     }
@@ -24,18 +26,7 @@ public class Terrain {
         if (terrain[c1][c2] == -1){
             terrain[c1][c2] = Rand.Rand(SettingsKindOf.numofbio);
         }
+        rio.outi(terrain[c1][c2]);
         return terrain[c1][c2];
     }
-    ///////////////////////////////////////////////////////////////////////////////////
-    /* //WIP TODO
-    public static void Terrain (int x, int y){
-        if (terrain[x][y]> SettingsKindOf.numofbio){
-
-        }
-        if (terrain[x][y]<=0){
-
-        }
-    }
-    public static int terrainret()
-    */
 }

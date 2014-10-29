@@ -8,16 +8,16 @@ public class FLBR {
         Turn.der = 0;//not needed
         switch (Turn.der){
             case (0):{
-                Turn.y = Turn.y++;
+                Turn.y++;
             }break;
             case (1):{
-                Turn.x = Turn.x--;
+                Turn.x--;
             }break;
             case (2):{
-                Turn.y = Turn.y--;
+                Turn.y--;
             }break;
             case (3):{
-                Turn.x = Turn.x++;
+                Turn.x++;
             }break;
         }
     }
@@ -25,16 +25,16 @@ public class FLBR {
         Turn.der = 1;
         switch (Turn.der){
             case (3):{
-                Turn.y = Turn.y++;
+                Turn.y++;
             }break;
             case (0):{
-                Turn.x = Turn.x--;
+                Turn.x--;
             }break;
             case (1):{
-                Turn.y = Turn.y--;
+                Turn.y--;
             }break;
             case (2):{
-                Turn.x = Turn.x++;
+                Turn.x++;
             }break;
         }
     }
@@ -42,16 +42,16 @@ public class FLBR {
         Turn.der = 2;
         switch (Turn.der){
             case (2):{
-                Turn.y = Turn.y++;
+                Turn.y++;
             }break;
             case (3):{
-                Turn.x = Turn.x--;
+                Turn.x--;
             }break;
             case (0):{
-                Turn.y = Turn.y--;
+                Turn.y--;
             }break;
             case (1):{
-                Turn.x = Turn.x++;
+                Turn.x++;
             }break;
         }
     }
@@ -59,16 +59,16 @@ public class FLBR {
         Turn.der = 3;
         switch (Turn.der){
             case (1):{
-                Turn.y = Turn.y++;
+                Turn.y++;
             }break;
             case (2):{
-                Turn.x = Turn.x--;
+                Turn.x--;
             }break;
             case (3):{
-                Turn.y = Turn.y--;
+                Turn.y--;
             }break;
             case (0):{
-                Turn.x = Turn.x++;
+                Turn.x++;
             }break;
         }
     }
