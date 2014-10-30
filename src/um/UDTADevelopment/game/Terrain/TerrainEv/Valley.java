@@ -12,7 +12,7 @@ public class Valley {
     public static void Valley(){
         rio.out("'tisk, 'tisk, 'tisk, a Valley");
         //
-        //# of events
+        //# of events -1
         int numofev = 1;
         //
         switch (Rand.Rand(numofev)){

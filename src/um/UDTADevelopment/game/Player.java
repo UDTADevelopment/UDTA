@@ -7,19 +7,19 @@ import um.UDTADevelopment.reference.SettingsKindOf;
  * Created by nija123098 on 9/19/2014.
  */
 public class Player {
-    int LifeP = 100;
-    int goldcount = 100;
-    int based = 20;
+    static int LifeP = 100;
+    static int goldcount = 100;
+    static int based = 20;
 
-    public void damaged(int damage){
-        LifeP = LifeP - damage;
+    public static void life(int damage){
+        LifeP = LifeP + damage;
     }
     //
-    public void goldp(int goldp){
-        goldcount = goldcount - goldp;
+    public static void goldp(int goldp){
+        goldcount = goldcount + goldp;
     }
     //
-    public int dodamage(){
+    public static int dodamage(){
         based = 20;
         int damagetodo =  based + Rand.Rand(SettingsKindOf.extrad);//extraD
         if (Rand.Rand(99) <= SettingsKindOf.critchance){//critchance
@@ -28,15 +28,11 @@ public class Player {
         return damagetodo;
     }
     //
-    public void heal(int hplus){
-        LifeP = LifeP + hplus;
-    }
-    //
-    public int rLP(){
+    public static int rLP(){
         return LifeP;
     }
     //
-    public int rgoldcount(){
+    public static int rgoldcount(){
         return goldcount;
     }
 }

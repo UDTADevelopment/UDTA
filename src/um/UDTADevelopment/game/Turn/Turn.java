@@ -24,7 +24,8 @@ public class Turn {
         Movement.Mtern();
 
         int whaterrain = Terrain.TerrainRead(x,y);
-        TerrainActiv.TerrainActivate(whaterrain);
+        int savestate = Terrain.been(x,y);
+        TerrainActiv.TerrainActivate(whaterrain, savestate);
     }
     public static void MoveA(){
         if (x>4){

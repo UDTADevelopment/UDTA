@@ -12,7 +12,7 @@ public class Hill {
     public static void Hill(){
         rio.out("'tis a Hill");
         //
-        //# of events
+        //# of events -1
         int numofev = 1;
         //
         switch (Rand.Rand(numofev)){

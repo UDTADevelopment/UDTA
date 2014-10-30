@@ -12,7 +12,7 @@ public class Swamp {
     public static void Swamp(){
         rio.out("'tis a Swamp");
         //
-        //# of events
+        //# of events -1
         int numofev = 1;
         //
         switch (Rand.Rand(numofev)){
